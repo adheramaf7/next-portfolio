@@ -10,12 +10,11 @@ import SubmitButton from './submit-button';
 import toast from 'react-hot-toast';
 
 export default function Contact() {
-   const { ref } = useSectionInView('Contact');
+   // const { ref } = useSectionInView('Contact');
 
    return (
       <motion.section
          id="contact"
-         ref={ref}
          className="mb-20 sm:mb-28 w-[min(100%,38rem)]"
          initial={{ opacity: 0 }}
          whileInView={{ opacity: 1 }}
