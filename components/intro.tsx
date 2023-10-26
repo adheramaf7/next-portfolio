@@ -53,7 +53,7 @@ export default function Intro() {
             className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}>
-            <Link
+            {/* <Link
                href={'#contact'}
                className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
                onClick={() => {
@@ -62,7 +62,7 @@ export default function Intro() {
                }}>
                Contact me here{' '}
                <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-            </Link>
+            </Link> */}
             <a
                href="#"
                className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/10 dark:bg-white/10 dark:text-white/60">
@@ -72,14 +72,14 @@ export default function Intro() {
             <a
                href="https://linkedin.com"
                target="_blank"
-               className="bg-white p-4 text-gray-700 flex items-center rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/10  dark:bg-white/10 dark:text-white/60">
-               <BsLinkedin />
+               className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/10  dark:bg-white/10 dark:text-white/60">
+               LinkedIn <BsLinkedin />
             </a>
             <a
                href="https://github.com"
                target="_blank"
-               className="bg-white p-4 text-gray-700 flex items-center rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/10  dark:bg-white/10 dark:text-white/60">
-               <BsGithub />
+               className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/10  dark:bg-white/10 dark:text-white/60">
+               GitHub <BsGithub />
             </a>
          </motion.div>
       </section>
