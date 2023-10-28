@@ -17,18 +17,22 @@ export default function About() {
          transition={{ delay: 0.175 }}>
          <SectionHeading>About Me</SectionHeading>
          <p className="mb-3 ">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore eligendi fugit sunt
-            nisi? Incidunt voluptate ullam iusto, labore illo a! Accusamus sit asperiores ea sequi
-            numquam obcaecati aut suscipit facere blanditiis labore. Sint sit quasi nam cumque et
-            atque exercitationem dicta quis reiciendis ad rem odit, dolor necessitatibus voluptatem
-            vel?
+            Hello, I am m Adhe, a software developer with over 5 years of experience in designing
+            and building robust software solutions. My expertise lies in PHP, Laravel, Javascript,
+            React JS, Flutter, Node JS, Express JS, and I have a proven track record of delivering
+            high-quality code and meeting project deadlines.
+         </p>
+         <p className="mb-3">
+            I am well-versed in the entire software development lifecycle, from requirement analysis
+            and system design to implementation, testing, and deployment. I thrive in collaborative
+            environments, enjoy tackling complex problems, and continuously stay updated with the
+            latest industry trends and best practices.
          </p>
          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, iusto. Fuga, nemo!
-            Culpa laudantium expedita, voluptatum voluptate, debitis explicabo illum ullam eveniet
-            molestiae sed cupiditate autem dicta, sequi non natus ipsam magnam distinctio
-            praesentium esse aliquid saepe. Provident est quasi itaque temporibus cupiditate,
-            eveniet mollitia laborum inventore reprehenderit culpa accusantium.
+            I am passionate about creating efficient, maintainable, and scalable software that
+            addresses real-world challenges. My dedication to writing clean code and implementing
+            best coding practices reflects my commitment to producing software solutions that stand
+            the test of time.
          </p>
       </motion.section>
    );
