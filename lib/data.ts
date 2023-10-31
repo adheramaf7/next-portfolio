@@ -1,7 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { FaRegCalendarCheck, FaRegCalendarTimes } from "react-icons/fa";
 import Career1 from "@/public/career1.png";
 import Career2 from "@/public/career2.png";
 import Career3 from "@/public/career3.png";
@@ -35,51 +34,58 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Programmer",
+    location: "PT Renjana Abi Yasa, Indonesia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Developed web applications using .NET, Javascript, jQuery, and HTML/CSS",
+    icon: React.createElement(FaRegCalendarTimes),
+    date: "Aug - Oct 2018",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Programmer Staff",
+    location: "Dinamika University, Indonesia",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Developed web applications using PHP, CodeIgniter 3, Laravel, Javascript, jQuery, and HTML/CSS.",
+    icon: React.createElement(FaRegCalendarTimes),
+    date: "Nov 2018 - Jul 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Programmer Specialist",
+    location: "Tancorp, Indonesia",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Developed web applications using PHP, Laravel, Javascript, jQuery, React JS, and HTML/CSS. Also developed mobile applications using Dart, and Flutter.",
+    icon: React.createElement(FaRegCalendarCheck),
+    date: "Jul 2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Recruitment Management System",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "The system for managing recruitment process from request until sorting candidates.",
+    tags: ["PHP", "Laravel", "Livewire", 'JavaScript', 'MySQL'],
     imageUrl: Career1,
   },
   {
-    title: "rmtDev",
+    title: "E-Learning (TETRA)",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "E-Learning for internal Tancorp Company Needed.",
+    tags: ["PHP", "Laravel", "Livewire", 'JavaScript', 'MySQL'],
     imageUrl: Career2,
   },
   {
-    title: "Word Analytics",
+    title: "Employee Self Service",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A mobile for employee to submit permits, annual leaves, and recording attendance. Already used in five companies under Tancorp.",
+    tags: ["Dart", "Flutter",],
+    imageUrl: Career3,
+  },
+  {
+    title: "Central Kitchen & POS",
+    description:
+      "Central Kitchen system for managing multiple restaurants centrally alongside with Point of Sales System for transaction on outlet.",
+    tags: ["Dart", "Flutter", 'PHP', 'Laravel', 'REST API'],
     imageUrl: Career3,
   },
 ] as const;
